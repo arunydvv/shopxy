@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+dist/
+build/
+out/
+coverage/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production files
+/public/static/
+/public/uploads/
+/uploads/
+
+# React build output
+/frontend/build/
+/client/build/
+
+# Misc
+*.tgz
+*.bak
+*.tmp
