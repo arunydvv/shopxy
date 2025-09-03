@@ -1,5 +1,4 @@
-// .storybook/main.js
-import { mergeConfig } from "vite";
+const { mergeConfig } = require("vite");
 
 module.exports = {
   framework: "@storybook/react-vite",
@@ -12,11 +11,7 @@ module.exports = {
   viteFinal: async (config) => {
     return mergeConfig(config, {
       css: {
-        preprocessorOptions: {
-          css: {
-            // Tailwind should work automatically with Vite
-          },
-        },
+        preprocessorOptions: {},
       },
     });
   },
